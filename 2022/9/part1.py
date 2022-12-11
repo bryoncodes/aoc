@@ -56,7 +56,6 @@ def process_move(head, tail, move):
 
 def aoc():
     moves = []
-    grid = base_grid
     with open("./input.txt") as infile:
         line = infile.readline().strip().split()
         while line:
